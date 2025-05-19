@@ -151,7 +151,7 @@ label {
 }
 
 .recipe_item {
-    cursor: pointer
+    cursor: pointer;
     width: clamp(10em, 30vw, 15em);
     background-color: rgba(246, 163, 97, 0.3);
     backdrop-filter: blur(4px);
