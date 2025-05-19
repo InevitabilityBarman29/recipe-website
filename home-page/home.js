@@ -46,7 +46,7 @@ searchBtn.addEventListener('click', (e) => {
                 recipeImage.src = `https://img.spoonacular.com/recipes/${recipeId}-312x231.${imageType}`;
 
                 recipeItem.addEventListener('click', () => {
-                    window.open(`/recipe-page/recipe.html?id=${recipeId}&title=${recipeName}`, '_blank');
+                    window.open(`recipe-page/recipe.html?id=${recipeId}&title=${recipeName}`, '_blank');
                 });
 
                 recipeItem.appendChild(recipeImage);
