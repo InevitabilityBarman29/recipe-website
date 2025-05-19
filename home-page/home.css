@@ -40,7 +40,7 @@ main {
     width: 100%;
     min-height: 75vh;
     padding: 1em;
-    background-image: url(/assets/bg.png);
+    background-image: url(assets/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
