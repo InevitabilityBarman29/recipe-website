@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    user-select: none;
+    outline: none;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 252, 241)
+}
+
+header {
+    width: 100%;
+    padding: 0.4em 2.5em;
+    color: rgb(246, 163, 97);
+    border-bottom: 3px ridge rgb(246, 163, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.main-panel {
+    width: 100%;
+    min-height: 75vh;
+    padding: 1em;
+    background-image: url(/assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.blockquote-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote {
+    padding-left: clamp(0.5em, 5vw, 4em);
+    padding-right: clamp(0.5em, 5vw, 4em);
+    padding-top: clamp(0.7em, 5vw, 3em);
+    padding-bottom: clamp(0.7em, 5vw, 3em);
+    background-color: rgb(246, 163, 97, 0.1);
+    backdrop-filter: blur(4px);
+    border: 2px ridge rgba(246, 163, 97, 0.2);
+    border-radius: 8px;
+    font-size: clamp(1em, 3vw, 1.5em);
+    text-align: center;
+}
+
+cite {
+    font-style: italic;
+    color: gray;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+label {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchInput {
+    width: clamp(0em, 70vw, 40em);
+    padding: 0.4em 1em;
+    font-size: 1.1em;
+    background-color: rgb(246, 163, 97, 0.1);
+    border: 2px solid rgba(246, 163, 97, 0.5);
+    border-right: none;
+    border-radius: 100px 0px 0px 100px;
+    transition: border 0.3s ease;
+}
+
+#searchInput:focus {
+    border: 2px solid rgba(246, 163, 97, 1);
+    border-right: none;
+}
+
+#searchBtn {
+    width: clamp(0em, 20vw, 5em);
+    height: 2.89em;
+    background-color: rgb(246, 163, 97);
+    border: none;
+    border-radius: 0px 100px 100px 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-icon {
+    margin: 10px;
+    width: 33px;
+}
+
+.recipe-panel {
+    width: 100%;
+    padding-bottom: 3em;
+    padding-left: clamp(5px, 2vh, 20px);
+    padding-right: clamp(5px, 2vh, 20px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 1.2em;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.2em;
+}
+
+.recipe_heading {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.recipe_item {
+    cursor: pointer;
+    width: clamp(10em, 30vw, 15em);
+    background-color: rgba(246, 163, 97, 0.3);
+    backdrop-filter: blur(4px);
+    border: 2px ridge rgba(246, 163, 97, 0.2);
+    border-radius: 8px;
+    padding: clamp(7px, 2vw, 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.3em;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.recipe_title {
+    width: 100%;
+    word-wrap: break-word;
+    text-transform: capitalize;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Recipe Website</title>
+    <meta name="description" content="A recipe website that allows you to search for recipes and view recipe cards.">
+    <meta name="author" content="Atia Farha">
+
+    <meta property="og:title" content="Recipe Website">
+    <meta property="og:site_name" content="Recipe Website">
+    <meta property="og:description" content="A recipe website that allows you to search for recipes and view recipe cards.">
+    <meta property="og:image" content="/assets/preview.png">
+    <meta property="og:image:alt" content="Recipe Website Preview Image">
+    <meta property="og:url" content="https://atia-farha.github.io/recipe-website/">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Recipe Website">
+    <meta name="twitter:description" content="A recipe website that allows you to search for recipes and view recipe cards.">
+    <meta name="twitter:image" content="/assets/preview.png">
+
+    <meta name="expected-hostname" content="https://atia-farha.github.io/">
+    <meta name="theme-color" content="#f6a361">
+
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicons/favicon.ico">
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-512x512.png" sizes="512x512">
+    <link rel="apple-touch-icon" type="image/png" href="/assets/favicons/apple-touch-icon.png" sizes="180x180">
+    <meta name="apple-mobile-web-app-title" content="Recipe Web">
+
+    <base href="https://atia-farha.github.io/recipe-website">
+    <link rel="canonical" href="https://atia-farha.github.io/recipe-website/">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow">
+
+    <link rel="stylesheet" href="/home-page/home.css">
+    <script src="/home-page/home.js" defer></script>
+    <link rel="preload" href="/assets/bg.png" as="image">
+</head>
+
+<body>
+    <header>
+        <h1>Recipe Website</h1>
+    </header>
+
+    <main>
+        <section class="main-panel">
+            <section class="blockquote-container">
+                <blockquote>
+                    Let food be thy medicine, and medicine be thy food.
+                    <br>
+                    <cite>- Marcus Aurelius</cite>
+                </blockquote>
+            </section>
+
+            <form>
+                <label for="searchInput">What do you want to make today?</label>
+
+                <div class="input-group">
+                    <input type="text" autocomplete="off" placeholder="Search for a recipe..." id="searchInput">
+
+                    <button id="searchBtn">
+                        <img src="/assets/pan-search-icon.svg" id="search-icon" width="10" alt="Search Icon">
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <section id="recipeContainer" class="recipe-panel"></section>
+    </main>
+</body>
+
+</html>
