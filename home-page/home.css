@@ -152,8 +152,7 @@ label {
 
 .recipe_item {
     cursor: pointer
-    flex: 1 1 13em;
-    min-width: 12em;
+    width: clamp(10em, 30vw, 15em);
     background-color: rgba(246, 163, 97, 0.3);
     backdrop-filter: blur(4px);
     border: 2px ridge rgba(246, 163, 97, 0.2);
@@ -176,4 +175,12 @@ img {
     width: 100%;
     word-wrap: break-word;
     text-transform: capitalize;
+}
+
+@media all and (max-width: 795px) {
+    .recipe_item {
+        flex: 1 1 13em;
+        min-width: 12em;
+        width: auto;
+    }
 }
